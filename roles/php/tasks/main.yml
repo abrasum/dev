@@ -1,0 +1,10 @@
+---
+- name: Install PHP
+  yum:
+          name: php
+          state: latest
+  become: yes
+  become_method: sudo
+  become_user: root
+
+...

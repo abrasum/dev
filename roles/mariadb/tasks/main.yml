@@ -1,0 +1,9 @@
+---
+- name: Install MySQL
+  yum:
+          name: mariadb
+          state: latest
+  become: yes
+  become_method: sudo
+  become_user: root
+...

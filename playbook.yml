@@ -2,4 +2,7 @@
 - hosts: all
   roles: 
    - common
+   - mysql
+   - apache
+   - php
 ...
