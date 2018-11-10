@@ -1,0 +1,8 @@
+---
+packages:
+        - mc
+        - curl
+        - wget
+        - git
+        - docker
+...

@@ -1,0 +1,10 @@
+---
+- name: Install main app
+  yum: 
+    name: "{{ packages }}"
+    state: latest
+  become: yes
+  become_method: sudo
+  become_user: root
+
+...
